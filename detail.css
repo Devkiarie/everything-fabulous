@@ -1,0 +1,104 @@
+.detail{
+    margin-bottom: 100px;
+}
+
+.title1{
+    font-size: 40px;
+    margin-bottom: 60px;
+    text-decoration: none;
+}
+
+.title2{
+    font-weight: 400;
+    text-decoration: none;
+    margin-bottom: 50px;
+    font-size: 30px;
+}
+
+.listProduct{
+    margin-bottom: 50px;
+}
+
+
+
+
+/* footer */
+
+.footer{
+    padding: 5px 10px;
+    background: #241816;
+    margin-top: 10px;
+}
+
+.footer-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #241816;
+    color: white;
+    flex-wrap: wrap;
+}
+
+.footer-box .footer-i h4{
+    margin-bottom: 10px;
+    font-size: 19px;
+}
+
+.footer-box .footer-i label {
+    display: inline-block;
+    margin-bottom: 5px;
+    font-size: 13px;
+    color: rgb(137,130,130);
+}
+
+.footer-box .footer-i {
+    margin: 30px;
+}
+
+.footer-box .footer-i.f2{
+    position: relative;
+    top: 32px;
+}
+
+.footer-box .footer-i.f2 label{
+    width : 200px;
+    display: block;
+    line-height: 22px;
+}
+
+.footer-box .footer-i.f2 input{
+    display: inline-block;
+    margin-top: 20px;
+    width: 300px;
+    padding: 12px 30px;
+    border: none;
+    outline: none;
+}
+
+.footer-box .footer-i button {
+    padding: 12px;
+    position: relative;
+    right: 8px;
+    background: white;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.footer-box .footer-i.f2 .social-media {
+    margin-top: 30px;
+}
+
+.footer-box .footer-i.f2 .social-media a i {
+    color: white;
+    margin-right: 10px;
+    font-size: 19px;
+    border-radius: 50%;
+    transition: all .3s ease-in-out;
+    padding: 13px;
+}
+
+.footer-box .footer-i.f2 .social-media a i:hover{
+    background: white;
+    color: black;
+}
